@@ -11,13 +11,11 @@ public class Person {
             System.out.println("I'm a man");
         } else if (gender == 2) {
             System.out.println("I'm a woman");
-            System.out.println("I'm a woman");
         }
     }
 
     public static void main(String[] args) {
-        Person man = new Person(1);
-        man.speak();
+        System.out.println("I'm a man");
         Person woman = new Person(2);
         woman.speak();
     }
