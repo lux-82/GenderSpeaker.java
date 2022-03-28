@@ -11,6 +11,7 @@ public class Person {
             System.out.println("I'm a man");
         } else if (gender == 2) {
             System.out.println("I'm a woman");
+            System.out.println("I'm a woman");
         }
     }
 
